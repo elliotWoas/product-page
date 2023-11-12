@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top-bar{
+    width: 80%;
+    height: 4rem;
+    background-color: #eee;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-solid {
+    color: red;
+    margin-right: 10px;
+}
+.header{
+    width: 80%;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar p{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 7px 15px;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: red;
+    border-radius: 3px;
+}
+.navbar-b{
+    display: flex;
+    align-items: flex;
+    justify-content: space-between;
+}
+.dropdown{
+    width:130px;
+    text-align:center;
+    background-color: white;
+    border-radius:3px;
+}
+.select{
+    outline: none;
+    border:none;
+    background: none;
+    padding: 7px 10px 7px 0px; 
+    color: red;
+    font-size: 18px;
+    cursor: pointer;
+}
+.select:hover {
+    color:#333;
+}
+.search{
+    width: 500;
+    background-color: #333;
+    height: 45px;
+    border-radius: 45px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.search input{
+    width: 440px;
+    border: none;
+    outline: none;
+    height: 40px;
+}
+.cart{
+    display: flex;
+    background-color: white;
+    justify-content:space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+    font-size: 18px;
+}
+.cart p{
+    height: 22px;
+    width:22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 50%;
+    background-color: red;
+    color: white;
+}
