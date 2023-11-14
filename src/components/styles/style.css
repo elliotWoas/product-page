@@ -39,3 +39,7 @@ nav ul li a {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
 }
+
+.logo img {
+  width: 30%;
+}
