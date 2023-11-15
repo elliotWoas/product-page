@@ -1,0 +1,13 @@
+.product-details h1 {
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    font-size: 2rem;
+    font-style:initial !important;
+}
+
+.product-details p {
+    position: absolute;
+    top: 16%;
+    right: 2%;
+}
