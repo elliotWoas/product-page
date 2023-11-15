@@ -19,6 +19,10 @@ header {
   align-items: center;
 }
 
+.header-container img {
+  width: 7%;
+}
+
 h1 {
   margin: 0;
 }
@@ -40,6 +44,42 @@ nav ul li a {
   transition: color 0.3s ease-in-out;
 }
 
-.logo img {
-  width: 30%;
+nav ul li a:hover {
+  color: #ffcc00;
+}
+.product-image img {
+  width: 20%;
+  margin: 2%;
+  border-radius: 20%;
+}
+
+/* Main styles */
+.main-one{
+  background-color: #a6a2a2;
+  border-color: #333;
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-cart {
+    flex-direction: column;
+  }
+
+  .product img {
+    margin-bottom: 0;
+  }
 }
